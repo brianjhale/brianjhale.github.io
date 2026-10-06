@@ -12,12 +12,17 @@ body {
   font-family: system-ui, -apple-system, sans-serif;
   background-color: var(--bg);
   color: var(--text);
-  padding: 2rem;
+  padding: 2rem 1rem;
+}
+
+/* Central layout wrapper */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 header {
-  max-width: 1000px;
-  margin: 0 auto 3rem;
+  margin-bottom: 3rem;
 }
 
 h1 {
@@ -25,12 +30,15 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
-  max-width: 1000px;
-  margin: 0 auto;
 }
 
 .card {
